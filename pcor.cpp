@@ -133,9 +133,6 @@ int main(int argc, char* argv[]) {
     if (n_cpu > 0)
         omp_set_num_threads(n_cpu);
 
-    vector<string> index;
-    string line;
-
     Matrix X = read_matrix(cin);
     if ((top_n > 0) && (top_n > X.data.n_cols)) {
         cerr << "ERROR: -n=" << top_n 

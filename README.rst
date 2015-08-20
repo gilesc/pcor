@@ -22,7 +22,7 @@ For local user install:
 Usage
 =====
 
-Input: a tab-delimited, labeled matrix on stdin.
+Input: a tab-delimited, labeled matrix on stdin. Example:
 
 ::
 
