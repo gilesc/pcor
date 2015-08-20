@@ -14,9 +14,11 @@ relatively recent C++ compiler (C++-0x support).
 For local user install:
 
 .. code-block:: bash
+
     make install
 
 .. code-block:: bash
+
     make PREFIX=/usr install
 
 Usage
