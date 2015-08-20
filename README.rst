@@ -17,9 +17,11 @@ For local user install:
 
     make install
 
+For sudo install:
+
 .. code-block:: bash
 
-    make PREFIX=/usr install
+    sudo make PREFIX=/usr install
 
 Usage
 =====
